@@ -1,0 +1,61 @@
+
+<div class="container">
+  <div class="card" style="width:25rem">
+    <div class="card-body">
+      <form>
+        <div class="text-center">
+          <img [src]="imgSrc" width="350px" height="250px" (click)="fileUploader.click()">
+        </div>
+        <div class="form-group">
+          <label>Select file to upload</label>
+          <input type="file" accept="image/*" class="form-control">
+          <div class="text-danger">This field is required.
+          </div>
+
+        </div>
+        <div class="form-group">
+          <input class="form-control" placeholder="category">
+          <div class="text-danger">This field is required.
+          </div>
+        </div>
+        <div class="form-group">
+          <input class="form-control" placeholder="category">
+          <div class="text-danger">This field is required.
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <button type="submit" class="btn btn-success btn-block float-right">Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="container">
+   
+  
+    <table class="table">
+      <thead>
+        <tr>
+          <th>category Name</th>
+          <th>Product Name</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John</td>
+          <td>Doe</td>
+          <td><button type="button" class="btn btn-danger">Danger</button></td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+
+
+
+</div>
+
+
+
